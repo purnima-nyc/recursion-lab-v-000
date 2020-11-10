@@ -1,5 +1,7 @@
 // Code your solution here!
 // str = "ban", program prints "b", "a", "n"
 const printString = (str) => {
-  if
+  for(let i=0; i<str.length; i++){
+    print str[i]
+  }
 }
