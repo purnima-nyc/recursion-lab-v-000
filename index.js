@@ -6,4 +6,7 @@ const printString = (str) => {
     let newString = str.substring(1, str.length)
     printString(newString)
   }
+  else {
+    return true
+  }
 }
