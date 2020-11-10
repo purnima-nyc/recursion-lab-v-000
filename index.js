@@ -2,6 +2,6 @@
 // str = "ban", program prints "b", "a", "n"
 const printString = (str) => {
   for(let i=0; i<str.length; i++){
-    prints str[i]
+    console.log(str[i])
   }
 }
