@@ -3,6 +3,7 @@
 const printString = (str) => {
   let i = 0
   while(i<str.length){
+    console.log(str[0])
     i++
     printString(str[i])
   }
