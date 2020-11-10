@@ -3,10 +3,7 @@
 const printString = (str) => {
   console.log(str[0])
   if(str.length > 1) {
+    i++
     printString(str[i+1])
   }
-  // while(i<str.length){
-  //   i++
-  //   printString(str[i])
-  // }
 }
