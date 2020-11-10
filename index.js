@@ -3,6 +3,7 @@
 const printString = (str) => {
   console.log(str[0])
   if(str.length > 1) {
+    let newString = str.substring(1, str.length)
     i++
     printString(str[i])
   }
