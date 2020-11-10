@@ -1,7 +1,10 @@
 // Code your solution here!
 // str = "ban", program prints "b", "a", "n"
 const printString = (str) => {
-  for(let i=0; i<str.length; i++){
-    console.log(str[i])
+  let i = 0;
+  console.log(str[i])
+  while(i<str.length){
+    printString(str[i])
   }
+  console.log()
 }
