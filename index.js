@@ -7,5 +7,4 @@ const printString = (str) => {
     i++
     printString(str[i])
   }
-  console.log()
 }
