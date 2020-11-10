@@ -4,6 +4,6 @@ const printString = (str) => {
   console.log(str[0])
   if(str.length > 1) {
     i++
-    printString(str[i+1])
+    printString(str[i])
   }
 }
